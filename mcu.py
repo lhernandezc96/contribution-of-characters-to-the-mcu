@@ -89,7 +89,7 @@ def combine_rows(matrix):
 def remove_characters(data):
 	"""Method that returns a pandas dataframe with screen time for characters in each movie. Unimportant chanracters are removed"""
 	# Reading data containing list of important characters only and their IDs
-	char_id_index = pd.read_csv('.\\characters.csv')
+	char_id_index = pd.read_csv('C:\Users\lache\Documents\GitHub\contribution-of-characters-to-the-mcu\characters.csv')
 	# Creating aa dict containing character IDs for each character
 	names = {old:new for (old, new) in zip(char_id_index['Character Name'], char_id_index['Character ID'])}
 	# Converting the data dict into a pandas data frame for easy handling
@@ -212,7 +212,7 @@ def generate_sheets(time_matrix, tf_idf_character, tf_idf_mcu):
 
 if __name__ == '__main__':
 	# Input IMDB url containing the data
-	url = 'https://www.imdb.com/list/ls066620113/?sort=list_order,asc&st_dt=&mode=detail&page=1&ref_=ttls_vm_dtl'
+	url = 'https://www.imdb.com/list/ls027954311/?ref_=otl_5'
 	# Fetching relevant data using web scraping
 	movie_lengths, imdb_data = fetch_data(url)
 	# Fetching a dict containg time for evry character over every movie
