@@ -17,8 +17,8 @@ Carol Danvers / Vers / Captain Marvel,Captain Marvel
 Cassie Lang,Cassie
 Clint Barton / Hawkeye,Hawkeye
 Clint Barton / Ronin,Hawkeye
-"Col. James ""Rhodey"" Rhodes / Iron Patriot",James Rhodes
-"Col. James ""Rhodey"" Rhodes / War Machine",James Rhodes
+"Col. James ""Rhodey"" Rhodes / Iron Patriot",James Rhodes / War Machine
+"Col. James ""Rhodey"" Rhodes / War Machine",James Rhodes / War Machine
 Director Nick Fury,Nick Fury
 Dr. Arnim Zola,Arnim Zola
 Dr. Bruce Banner,Bruce Banner
@@ -50,7 +50,7 @@ Howard Stark,Howard Stark
 Ivan Vanko / Whiplash,Ivan Vanko
 "James ""Bucky"" Barnes / White Wolf",Bucky
 "James ""Bucky"" Barnes / Winter Soldier",Bucky
-"James ""Rhodey"" Rhodes / War Machine",James Rhodes
+"James ""Rhodey"" Rhodes / War Machine",James Rhodes / War Machine
 Jennifer Walters / She-Hulk,She-Hulk
 Johann Schmidt / Red Skull,Red Skull
 Baron Karl Mordo,Mordo
@@ -61,8 +61,9 @@ King T'Challa / Black Panther,Black Panther
 King K'uk'ulkan / Namor,Namor
 Korg,Korg
 Loki,Loki
-"Lt. Col. James ""Rhodey"" Rhodes",James Rhodes
-"Lt. Col. James ""Rhodey"" Rhodes / War Machine",James Rhodes
+Loki (protagonist),Loki
+"Lt. Col. James ""Rhodey"" Rhodes",James Rhodes / War Machine
+"Lt. Col. James ""Rhodey"" Rhodes / War Machine",James Rhodes / War Machine
 M'Baku,M'Baku
 Marc Spector / Steven Grant / Jake Lockley / Moon Knight,Moon Knight
 Matt Murdock,Daredevil
@@ -117,7 +118,7 @@ The Collector,The Collector
 The Grandmaster,The Grandmaster
 Thor,Thor
 Thor Odinson,Thor
-Tony Stark / Iron Man,Tony Stark
+Tony Stark / Iron Man,Tony Stark / Iron Man
 "Trevor Slattery / ""The Mandarin""",Mandarin
 Ultron,Ultron
 King Valkyrie,Valkyrie
