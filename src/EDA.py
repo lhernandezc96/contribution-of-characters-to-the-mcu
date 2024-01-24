@@ -54,7 +54,7 @@ for movie in data_dict.keys():
 		else:
 			character_movie_time[movie] = {character: time}
 character_movie_time['Spider-Man: Homecoming']
-char_id_index = pd.read_csv('characters.csv')
+char_id_index = pd.read_csv("src/data/characters.csv")
 # Creating aa dict containing character IDs for each character
 names = {old:new for (old, new) in zip(char_id_index['Character Name'], char_id_index['Character ID'])}
 # Converting the data dict into a pandas data frame for easy handling

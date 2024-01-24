@@ -1,11 +1,15 @@
 import streamlit as st
 import funciones as EDA
 import texto as t
+import warnings
+
+# Ignorar todos los warnings
+warnings.filterwarnings("ignore")
 
 
 def main():
     st.title("EDA: Tiempo en pantalla de los personajes del MCU")
-    st.image('Endgame_poster.jpg', use_column_width=True)
+    st.image('src/data/Endgame_poster.jpg', use_column_width=True)
     st.markdown(t.texto_markdown_1)
 
     # Crear checkboxes en el sidebar
@@ -73,7 +77,7 @@ def main():
     if figura:
         st.plotly_chart(figura)
         
-    st.image('marvel-mcu-gif.gif', use_column_width=True)
+    st.image('src/data/marvel-mcu-gif.gif', use_column_width=True)
     st.markdown(t.texto_markdown_2)
     
     
