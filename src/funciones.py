@@ -181,8 +181,8 @@ def grafico_pie_t_pantalla (pelicula):
 
     fig.add_trace(
         go.Pie(
-            labels=labels,
-            values=pie1_list,
+            labels=labels[:-1],
+            values=pie1_list[:-1],
             textinfo='text+value',
             hoverinfo="label+value",
             marker=dict(colors=colores_rgba),
